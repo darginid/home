@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/media.css">
+   <title>House</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="container header__container">
+         <div class="header__left">
+            <a href="#" class="logo header__logo">
+               <img src="img/logo.svg" alt="#">
+            </a>
+         </div>
+         <div class="header__right">
+            <nav class="nav">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#" class="nav__link">Репродукции</a></li>
+                  <li class="nav__item"><a href="#" class="nav__link">Новинки</a></li>
+                  <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+               </ul>
+            </nav>
+            <button class="burger" aria-label="Открыть меню">
+               <span class="burger__line" aria-label="Компонент меню"></span>
+            </button>
+            <a href="#" class="cart" aria-label="basket">
+               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_3_994)">
+                     <path
+                        d="M9.25001 21.1667C9.75627 21.1667 10.1667 20.7563 10.1667 20.25C10.1667 19.7438 9.75627 19.3334 9.25001 19.3334C8.74375 19.3334 8.33334 19.7438 8.33334 20.25C8.33334 20.7563 8.74375 21.1667 9.25001 21.1667Z"
+                        stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     <path
+                        d="M19.3333 21.1667C19.8396 21.1667 20.25 20.7563 20.25 20.25C20.25 19.7438 19.8396 19.3334 19.3333 19.3334C18.8271 19.3334 18.4167 19.7438 18.4167 20.25C18.4167 20.7563 18.8271 21.1667 19.3333 21.1667Z"
+                        stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     <path
+                        d="M1.91666 1.91663H5.58332L8.03999 14.1908C8.12381 14.6128 8.35341 14.9919 8.68857 15.2617C9.02374 15.5315 9.44313 15.6749 9.87332 15.6666H18.7833C19.2135 15.6749 19.6329 15.5315 19.9681 15.2617C20.3032 14.9919 20.5328 14.6128 20.6167 14.1908L22.0833 6.49996H6.49999"
+                        stroke="#2C2D35" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </g>
+                  <defs>
+                     <clipPath id="clip0_3_994">
+                        <rect width="22" height="22" fill="white" transform="translate(1 1)" />
+                     </clipPath>
+                  </defs>
+               </svg></a>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <section class="hero">
+         <div class="container hero__container">
+            <img class="hero__img" src="img/hero.png" alt="Bird">
+            <div class="hero__content">
+               <h1 class="hero__title">Реплики картин от <span>Ink. House</span></h1>
+               <p class="hero__descr">Высокое качество отрисовки на плотной бумаге или льняном холсте. Редкие
+                  произведения, доступные цены.</p>
+               <button class="btn btn-reset">Продукция</button>
+            </div>
+         </div>
+      </section>
+      <section class="catalog">
+         <div class="container">
+            <div class="catalog__top">
+               <h2 class="catalog__title">Репродукции</h2>
+               <div class="catalog__buttons">
+                  <button class="catalog__buttons-item btn-reset catalog__buttons-item--green">Франция</button>
+                  <button class="catalog__buttons-item btn-reset">Германия</button>
+                  <button class="catalog__buttons-item btn-reset">Англия</button>
+               </div>
+            </div>
+            <ul class="catalog__list">
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card1.jpg" alt="picture">
+                        <figcaption class="product__author">Марсель Руссо</figcaption>
+                     </figure>
+                     <h3 class="product__title">Охота Амура</h3>
+                     <span class="product__props">Холст, масло (50х80) </span>
+                     <p class="product__price">14 500 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card2.jpg" alt="picture">
+                        <figcaption class="product__author">Анри Селин</figcaption>
+                     </figure>
+                     <h3 class="product__title">Дама с собачкой</h3>
+                     <span class="product__props">Акрил, бумага (50х80) </span>
+                     <p class="product__price">16 500 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card3.jpg" alt="picture">
+                        <figcaption class="product__author">Франсуа Дюпон</figcaption>
+                     </figure>
+                     <h3 class="product__title">Процедура</h3>
+                     <span class="product__props">Цветная литография (40х60) </span>
+                     <p class="product__price">20 000 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card4.jpg" alt="picture">
+                        <figcaption class="product__author">Луи Детуш</figcaption>
+                     </figure>
+                     <h3 class="product__title">Роза</h3>
+                     <span class="product__props">Бумага, акрил (50х80) </span>
+                     <p class="product__price">12 000 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card5.jpg" alt="picture">
+                        <figcaption class="product__author">Франсуа Дюпон</figcaption>
+                     </figure>
+                     <h3 class="product__title">Птичья трапеза</h3>
+                     <span class="product__props">Цветная литография (40х60) </span>
+                     <p class="product__price">22 500 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+               <li class="catalog__item">
+                  <article class="product">
+                     <figure class="product__figure">
+                        <img class="product__img" src="img/card6.jpg" alt="picture">
+                        <figcaption class="product__author">Пьер Моранж</figcaption>
+                     </figure>
+                     <h3 class="product__title">Пейзаж с рыбой</h3>
+                     <span class="product__props">Цветная литография (40х60) </span>
+                     <p class="product__price">20 000 руб</p>
+                     <button class="btn btn-reset btn--product">В корзину</button>
+                  </article>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="newbies">
+         <div class="container">
+            <h2 class="newbies__title">
+               Новая коллекция французских авторов
+            </h2>
+            <div class="newbies__text">
+               <p class="newbies__descr">
+                  Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою
+                  очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
+               </p>
+               <p class="newbies__descr">
+                  Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую
+                  востребованность
+                  направлений прогрессивного развития.
+               </p>
+            </div>
+            <a class="btn newbies__link">Ознакомиться</a>
+         </div>
+      </section>
+      <section class="about">
+         <div class="container about__container">
+            <img class="about__img" src="img/about-bg.png" alt="picaso">
+            <div class="about__content">
+               <h2 class="about__title">Наша команда</h2>
+               <p class="about__descr">
+                  Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет
+                  оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены
+                  отталкиваться
+                  от того, что консультация с широким активом.
+               </p>
+               <ul class="about__list">
+                  <li class="about__item"><img class="about__item-img" src="img/about1.jpg" alt="team"></li>
+                  <li class="about__item"><img class="about__item-img" src="img/about2.jpg" alt="team"></li>
+                  <li class="about__item"><img class="about__item-img" src="img/about3.jpg" alt="team"></li>
+               </ul>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer class="footer">
+      <div class="container footer__container">
+         <div class="footer__left">
+            <a href="#" class="logo footer__logo">
+               <img src="img/footer-logo.svg" alt="#">
+            </a>
+            <div class="phone-master">
+               <a class="footer__phone" href="tel:79995435454">+7 (999) 543-54-54</a>
+               <p class="footer__phone-text">Мастерская</p>
+            </div>
+         </div>
+         <div class="footer__right">
+            <ul class="footer__list">
+               <li class="footer__item">
+                  <h2 class="footer__title">Репродукции</h2>
+                  <ul class="list-footer">
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">Франция</a></li>
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">Германия</a></li>
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">Англия</a></li>
+                  </ul>
+               </li>
+               <li class="footer__item">
+                  <h2 class="footer__title">Новинки</h2>
+                  <ul class="list-footer">
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">2022</a></li>
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">2023</a></li>
+                  </ul>
+               </li>
+               <li class="footer__item">
+                  <h2 class="footer__title">О нас</h2>
+                  <ul class="list-footer">
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">Художники</a></li>
+                     <li class="list-footer__item"><a class="list-footer__link" href="#">Менеджеры</a></li>
+                  </ul>
+               </li>
+            </ul>
+            <div class="footer-props">
+               <ul class="social">
+                  <li class="social__item"><a href="#" class="social__link social__link--fb"
+                        aria-label="facebook link"></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link--inst"
+                        aria-label="instagram link"></a></li>
+                  <li class="social__item"><a href="#" class="social__link social__link--yt"
+                        aria-label="youtube link"></a></li>
+               </ul>
+               <p class="footer__copy">Ink. House <sup>®</sup>
+                  All rights reserved
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+</html>
