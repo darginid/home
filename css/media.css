@@ -1,0 +1,128 @@
+@media (max-width: 992px) {
+  .hero {
+    padding-top: 50px;
+  }
+  .catalog {
+    padding: 50px 0;
+  }
+  .catalog__top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .catalog__title {
+    margin-bottom: 20px;
+  }
+  .catalog__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .about {
+    padding: 50px 0;
+  }
+  .about__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about__img {
+    max-width: 50%;
+    margin-bottom: 30px;
+  }
+  .footer__container {
+    flex-direction: column;
+  }
+  .footer__left {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 690px) {
+  .header__container {
+    flex-direction: column;
+  }
+  .header__logo {
+    margin-bottom: 10px;
+  }
+  .header__right {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+    padding-top: 10px;
+  }
+  .catalog__item {
+    height: 100%;
+  }
+  .footer__right {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__list {
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+    margin: 0;
+  }
+  .footer__item {
+    margin-right: 60px;
+  }
+  .footer__item:last-child {
+    margin-right: 0;
+  }
+  .social {
+    padding-top: 16px;
+  }
+  .footer-props {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    padding: 10px;
+  }
+  .nav {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .hero__container {
+    display: block;
+  }
+  .hero__content {
+    max-width: none;
+  }
+  .hero__img {
+    display: none;
+  }
+  .catalog {
+    padding: 60px 0;
+  }
+  .catalog__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .catalog__buttons-item {
+    margin-bottom: 10px;
+  }
+  .newbies {
+    padding: 50px 10px;
+  }
+  .newbies__title {
+    max-width: none;
+  }
+  .newbies__descr {
+    max-width: none;
+  }
+  .footer__list {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}
+@media (max-width: 385px) {
+  .footer__logo {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */

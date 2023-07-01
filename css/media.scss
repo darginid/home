@@ -1,0 +1,176 @@
+@media (max-width: 992px) {
+   .hero {
+      padding-top: 50px;
+   }
+
+   .catalog {
+      padding: 50px 0;
+
+      &__top {
+         flex-direction: column;
+         align-items: flex-start;
+      }
+
+      &__title {
+         margin-bottom: 20px;
+      }
+
+      &__list {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         gap: 20px;
+      }
+   }
+
+   .about {
+      padding: 50px 0;
+
+      &__container {
+         display: flex;
+         flex-direction: column;
+      }
+
+      &__img {
+         max-width: 50%;
+         margin-bottom: 30px;
+      }
+   }
+
+   .footer {
+      &__container {
+         flex-direction: column;
+      }
+
+      &__left {
+         display: flex;
+         justify-content: space-between;
+         margin-right: 0;
+         margin-bottom: 30px;
+      }
+   }
+}
+
+@media (max-width: 690px) {
+   .header {
+      &__container {
+         flex-direction: column;
+      }
+
+      &__logo {
+         margin-bottom: 10px;
+      }
+
+      &__right {
+         width: 100%;
+         border-top: 1px solid var(--border-color);
+         padding-top: 10px;
+      }
+   }
+
+   .catalog {
+      &__item {
+         height: 100%;
+      }
+   }
+
+   .footer {
+      &__right {
+         flex-direction: column;
+         align-items: center;
+      }
+
+      &__list {
+         padding-bottom: 16px;
+         border-bottom: 1px solid var(--border-color);
+         margin: 0;
+      }
+
+      &__item {
+         margin-right: 60px;
+      }
+
+      &__item:last-child {
+         margin-right: 0;
+      }
+
+   }
+
+   .social {
+      padding-top: 16px;
+   }
+
+   .footer-props {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+@media (max-width: 576px) {
+   .header {
+      padding: 10px;
+   }
+
+   .nav {
+      display: none;
+   }
+
+   .burger {
+      display: block;
+   }
+
+   .hero {
+      &__container {
+         display: block;
+      }
+
+      &__content {
+         max-width: none;
+      }
+
+      &__img {
+         display: none;
+      }
+   }
+
+   .catalog {
+      padding: 60px 0;
+
+      &__list {
+         display: flex;
+         flex-direction: column;
+         row-gap: 30px;
+      }
+
+      &__buttons-item {
+         margin-bottom: 10px;
+      }
+   }
+
+   .newbies {
+      padding: 50px 10px;
+
+      &__title {
+         max-width: none;
+      }
+
+      &__descr {
+         max-width: none;
+      }
+   }
+
+   .footer {
+      &__list {
+         flex-wrap: wrap;
+         row-gap: 20px;
+      }
+   }
+}
+
+@media (max-width: 385px) {
+   .footer {
+      &__logo {
+         display: none;
+      }
+   }
+}
